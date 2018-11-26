@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://disinuo.me/2018/11/26/2018-11-26-kafka/</loc>
+    <lastmod>2018-11-26T09:51:15.163Z</lastmod>
+  </url>  <url>
     <loc>https://disinuo.me/2017/07/31/ip/</loc>
     <lastmod>2018-11-25T16:19:14.961Z</lastmod>
   </url>  <url>
@@ -58,10 +61,10 @@
     <loc>https://disinuo.me/2016/12/24/2016-12-24-javascript_this/</loc>
     <lastmod>2018-11-25T16:19:14.932Z</lastmod>
   </url>  <url>
-    <loc>https://disinuo.me/2016/12/21/2016-12-21-github_pages_setup_ssl/</loc>
+    <loc>https://disinuo.me/2016/12/18/2016-12-18-preparedStatement_Parameter_index_out_of_range/</loc>
     <lastmod>2018-11-25T16:19:14.930Z</lastmod>
   </url>  <url>
-    <loc>https://disinuo.me/2016/12/18/2016-12-18-preparedStatement_Parameter_index_out_of_range/</loc>
+    <loc>https://disinuo.me/2016/12/21/2016-12-21-github_pages_setup_ssl/</loc>
     <lastmod>2018-11-25T16:19:14.930Z</lastmod>
   </url>  <url>
     <loc>https://disinuo.me/2016/12/15/2016-12-15-mysql5.7_login_fail/</loc>
