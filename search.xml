@@ -444,9 +444,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> j2ee </tag>
+            
+            <tag> java </tag>
             
             <tag> spring </tag>
             
@@ -575,11 +575,11 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> j2ee </tag>
             
             <tag> hibernate </tag>
+            
+            <tag> java </tag>
             
         </tags>
         
@@ -912,9 +912,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> j2ee </tag>
+            
+            <tag> java </tag>
             
             <tag> sql </tag>
             
