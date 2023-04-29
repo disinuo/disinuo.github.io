@@ -4,20 +4,6 @@
   
     
     <entry>
-      <title><![CDATA[测试文章]]></title>
-      <url>http://yoursite.com/2023/04/29/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-      <content type="html"><![CDATA[<hr>
-<a id="more"></a>
-<hr>
-<blockquote>
-<p>文章标题：<a href="http://yoursite.com/2023/04/29/测试文章/" title="测试文章">测试文章</a><br>文章作者：<a href="https://disinuo.me" target="_blank" rel="noopener">disinuo</a><br>文章链接：<a href="http://yoursite.com/2023/04/29/测试文章/" title="测试文章">http://yoursite.com/2023/04/29/测试文章/</a></p>
-</blockquote>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[kafka机制梳理]]></title>
       <url>http://yoursite.com/2018/11/26/2018-11-26-kafka/</url>
       <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近我们小组在尝试搭建大数据系统，各种没听过的名词搞得我们很头大，于是准备好好弄清楚kafka到底是个什么东西~</p>
@@ -458,9 +444,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> j2ee </tag>
+            
+            <tag> java </tag>
             
             <tag> spring </tag>
             
@@ -589,11 +575,11 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> j2ee </tag>
             
             <tag> hibernate </tag>
+            
+            <tag> java </tag>
             
         </tags>
         
@@ -926,9 +912,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> j2ee </tag>
+            
+            <tag> java </tag>
             
             <tag> sql </tag>
             
