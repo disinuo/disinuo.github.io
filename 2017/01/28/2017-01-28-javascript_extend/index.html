@@ -83,7 +83,7 @@
 <meta name="keywords" content="javascript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="javascript之继承">
-<meta property="og:url" content="https://disinuo.me/2017/01/28/2017-01-28-javascript_extend/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/01/28/2017-01-28-javascript_extend/index.html">
 <meta property="og:site_name" content="Disinuo的博客">
 <meta property="og:description" content="前言说明一下，本文提到的‘类’，不是java、C里那种‘类’~javascript里是没有类的概念的，只是为了方便表达~将一个包含构造器、原型的变量叫做‘类’。javascript里的继承，跟java、C等比起来，看起来好像很随意。。。因为javascript里的‘类’的构成，包含两部分嘛——–构造器和原型，所以继承也包括两部分~原型继承和构造器继承，都得手动自己来~所以其实也可以单独继承构造器或">
 <meta property="og:locale" content="zh-Hans">
@@ -120,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="https://disinuo.me/2017/01/28/2017-01-28-javascript_extend/">
+  <link rel="canonical" href="http://yoursite.com/2017/01/28/2017-01-28-javascript_extend/">
 
 
 
@@ -305,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://disinuo.me/2017/01/28/2017-01-28-javascript_extend/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/28/2017-01-28-javascript_extend/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Disinuo">
@@ -416,10 +416,10 @@
 <p>A -&gt; B.prototype -&gt; Object.prototype -&gt;null</p>
 </blockquote>
 <p>B是A的父类~</p>
-<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>假设有一个<code>书</code>的‘类’，下面是它的构造器和原型（构造器和原型不知道是啥的话可以看这里<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/">javascript 原型与构造器之‘原型’</a>，<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/">javascript 原型与构造器之构造器</a>）<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Book=<span class="function"><span class="keyword">function</span> (<span class="params">name</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">&#125;;</span><br><span class="line">Book.prototype=&#123;</span><br><span class="line">    <span class="keyword">constructor</span>:Book,</span><br><span class="line">    getName:function () &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>假设有一个<code>书</code>的‘类’，下面是它的构造器和原型（构造器和原型不知道是啥的话可以看这里<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/" target="_blank" rel="noopener">javascript 原型与构造器之‘原型’</a>，<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/" target="_blank" rel="noopener">javascript 原型与构造器之构造器</a>）<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Book=<span class="function"><span class="keyword">function</span> (<span class="params">name</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">&#125;;</span><br><span class="line">Book.prototype=&#123;</span><br><span class="line">    <span class="keyword">constructor</span>:Book,</span><br><span class="line">    getName:function () &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
 <p>然后呢~有一个<code>小说</code>的’类’要继承<code>书</code>。然后看下面继承的两个步骤~</p>
 <h3 id="继承Part1–构造器继承"><a href="#继承Part1–构造器继承" class="headerlink" title="继承Part1–构造器继承"></a>继承Part1–构造器继承</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Fiction = <span class="function"><span class="keyword">function</span> (<span class="params">name,author</span>) </span>&#123;</span><br><span class="line">    Book.call(<span class="keyword">this</span>,name); <span class="comment">//调用Book的构造器</span></span><br><span class="line">    <span class="keyword">this</span>.author=author;   <span class="comment">//在构造器里给Fiction添加了一个“作者”属性</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>先解释一下<code>call</code>函数。<br>call是javascript里Function类型变量自带的函数，参数个数不定。<br>第一个参数是会作为该函数执行时的<code>this</code>。关于this可参考(javascript之this的绑定)[<a href="https://disinuo.me/2016/12/24/2016-12-24-javascript_this]">https://disinuo.me/2016/12/24/2016-12-24-javascript_this]</a><br>接下来的参数就都是调用call的函数本身的参数啦~<br>所以这里<code>Book.call(this,name)</code>是把Fiction的this传给Book，把name传给Book的构造器。</p>
+<p>先解释一下<code>call</code>函数。<br>call是javascript里Function类型变量自带的函数，参数个数不定。<br>第一个参数是会作为该函数执行时的<code>this</code>。关于this可参考(javascript之this的绑定)[<a href="https://disinuo.me/2016/12/24/2016-12-24-javascript_this]" target="_blank" rel="noopener">https://disinuo.me/2016/12/24/2016-12-24-javascript_this]</a><br>接下来的参数就都是调用call的函数本身的参数啦~<br>所以这里<code>Book.call(this,name)</code>是把Fiction的this传给Book，把name传给Book的构造器。</p>
 <blockquote>
 <p>为什么要这么费劲的把Fiction的this传给Book呢？直接<code>Book(name);</code>不行吗？</p>
 </blockquote>
@@ -490,7 +490,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://disinuo.me/2017/01/28/2017-01-28-javascript_extend/" title="javascript之继承">https://disinuo.me/2017/01/28/2017-01-28-javascript_extend/</a>
+    <a href="http://yoursite.com/2017/01/28/2017-01-28-javascript_extend/" title="javascript之继承">http://yoursite.com/2017/01/28/2017-01-28-javascript_extend/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>

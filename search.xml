@@ -5,12 +5,12 @@
     
     <entry>
       <title><![CDATA[测试文章]]></title>
-      <url>https://disinuo.me/2023/04/29/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+      <url>http://yoursite.com/2023/04/29/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
       <content type="html"><![CDATA[<hr>
 <a id="more"></a>
 <hr>
 <blockquote>
-<p>文章标题：<a href="https://disinuo.me/2023/04/29/测试文章/" title="测试文章">测试文章</a><br>文章作者：<a href="https://disinuo.me">disinuo</a><br>文章链接：<a href="https://disinuo.me/2023/04/29/测试文章/" title="测试文章">https://disinuo.me/2023/04/29/测试文章/</a></p>
+<p>文章标题：<a href="http://yoursite.com/2023/04/29/测试文章/" title="测试文章">测试文章</a><br>文章作者：<a href="https://disinuo.me" target="_blank" rel="noopener">disinuo</a><br>文章链接：<a href="http://yoursite.com/2023/04/29/测试文章/" title="测试文章">http://yoursite.com/2023/04/29/测试文章/</a></p>
 </blockquote>
 ]]></content>
       
@@ -19,7 +19,7 @@
     
     <entry>
       <title><![CDATA[kafka机制梳理]]></title>
-      <url>https://disinuo.me/2018/11/26/2018-11-26-kafka/</url>
+      <url>http://yoursite.com/2018/11/26/2018-11-26-kafka/</url>
       <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近我们小组在尝试搭建大数据系统，各种没听过的名词搞得我们很头大，于是准备好好弄清楚kafka到底是个什么东西~</p>
 <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>简单来讲，kafka维护了一个消息队列，以发布-订阅的模式维护了消息发布者和接收者之间的通讯。下面看下它的主要结构吧~<br><a id="more"></a></p>
 <h2 id="整体物理结构"><a href="#整体物理结构" class="headerlink" title="整体物理结构"></a>整体物理结构</h2><p><img src="/image/2018-11-26-kafka/general-physic-structure.jpg" alt></p>
@@ -75,7 +75,7 @@
     
     <entry>
       <title><![CDATA[qt开发遇到的各种坑]]></title>
-      <url>https://disinuo.me/2018/05/23/2018-5-23-QTCreatorProcessEndForcefully/</url>
+      <url>http://yoursite.com/2018/05/23/2018-5-23-QTCreatorProcessEndForcefully/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我本科毕设是使用 <em>qt框架</em> 和 <em>QTCreator</em> 作为IDE进行项目开发，过程中遇到了很多很迷的bug或者遇到的问题在这边记录一下。<br><a id="more"></a></p>
 <h3 id="BUG-1-程序异常退出的因素"><a href="#BUG-1-程序异常退出的因素" class="headerlink" title="BUG_1: 程序异常退出的因素"></a>BUG_1: 程序异常退出的因素</h3><p>程序在编译构建的时候没有报错，但是运行时控制台就会突然输出<br>【程序异常结束-The process was ended forcefully.】，然后程序就挂了。<br>在经过google以及自己的摸索后，总结了几个会导致报这个错误的原因，如下。</p>
 <ul>
@@ -111,7 +111,7 @@
     
     <entry>
       <title><![CDATA[近日杂谈]]></title>
-      <url>https://disinuo.me/2018/04/21/2018-4-21-summary/</url>
+      <url>http://yoursite.com/2018/04/21/2018-4-21-summary/</url>
       <content type="html"><![CDATA[<p>考上清华研究生、参加#一年读完柯林斯#、又一次半马228、拍毕业照、开了网易云电台练习口语~</p>
 <a id="more"></a>
 <h3 id="考研有了好结果"><a href="#考研有了好结果" class="headerlink" title="考研有了好结果"></a>考研有了好结果</h3><p>努力总算没有白费~</p>
@@ -142,9 +142,9 @@
             
             <tag> 生活 </tag>
             
-            <tag> 随笔 </tag>
-            
             <tag> 考研 </tag>
+            
+            <tag> 随笔 </tag>
             
         </tags>
         
@@ -152,7 +152,7 @@
     
     <entry>
       <title><![CDATA[考研复习资料推荐]]></title>
-      <url>https://disinuo.me/2018/01/07/2018-1-7-PQExam_referenceRecommendation/</url>
+      <url>http://yoursite.com/2018/01/07/2018-1-7-PQExam_referenceRecommendation/</url>
       <content type="html"><![CDATA[<p>首先声明，复习资料适用程度本就因人而异，本篇是我的使用经验和感受~各位酌情参考。<br>以及，本人是2018届考研党。</p>
 <a id="more"></a>
 <h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><h4 id="李永乐复习全书-660题-历年真题解析"><a href="#李永乐复习全书-660题-历年真题解析" class="headerlink" title="李永乐复习全书+660题+历年真题解析"></a>李永乐复习全书+660题+历年真题解析</h4><p>我买的是全套，包括分阶段习题，但觉得那本难度过高，只做了一章。<br>复习全书还是很全面的，推荐。<br>660题就是一本题册啦~可以刷一遍，第二遍再刷自己的错题。</p>
@@ -181,7 +181,7 @@
     
     <entry>
       <title><![CDATA[写在考研初试后]]></title>
-      <url>https://disinuo.me/2018/01/07/2018-1-7-PQExam_afterFirstTest/</url>
+      <url>http://yoursite.com/2018/01/07/2018-1-7-PQExam_afterFirstTest/</url>
       <content type="html"><![CDATA[<p>这是一篇干货和感想夹杂的文章。。。<br><a id="more"></a></p>
 <h3 id="起点"><a href="#起点" class="headerlink" title="起点"></a>起点</h3><p>在决定要考清华之后，自己也是心里一点底都没有，因为，清华北大，在我心目中，一直是 天呐 望尘莫及的地位。<br>然后二三月份，开始查有关的资讯，初步了解关于考研 关于清华软件工程研究生的各种信息。知道了考试的科目，4月份开始第一轮复习专业课。其实这第一轮复习的还是比较水的，主要是听网课，做做笔记什么的。没有结合做题，所以真正记住的知识点并没有多少。</p>
 <h3 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h3><p>因为暑假要去华为实习，所以我才4月份先开始复习一波的。</p>
@@ -242,9 +242,9 @@
         
         <tags>
             
-            <tag> 随笔 </tag>
-            
             <tag> 考研 </tag>
+            
+            <tag> 随笔 </tag>
             
         </tags>
         
@@ -252,7 +252,7 @@
     
     <entry>
       <title><![CDATA[主机A给已知IP地址的主机B发送ip报文的过程]]></title>
-      <url>https://disinuo.me/2017/07/31/2017-7-31-IP/</url>
+      <url>http://yoursite.com/2017/07/31/2017-7-31-IP/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近一直在看网络的书，有的地方看得有点乱，这里总结一下两个主机之间发送数据包的过程。<br>可能内容会有小错误，欢迎在下面留言指出~<br>我之后学的更深入了也可能会来完善这篇~<br><a id="more"></a></p>
 <h3 id="过程如下"><a href="#过程如下" class="headerlink" title="过程如下"></a>过程如下</h3><p>  1.封装好了有源ip、目标ip、报文内容的ip报文。交由而二层后要知道目的mac地址，所以下面是确定目的mac地址的过程~</p>
 <p>  2.主机A先将主机B的ip跟自己的网络掩码相<code>与</code>，判断是否在同一网段</p>
@@ -282,7 +282,7 @@
     
     <entry>
       <title><![CDATA[Android：AsyncTask用法]]></title>
-      <url>https://disinuo.me/2017/06/13/2017-06-13-android_asyncTask/</url>
+      <url>http://yoursite.com/2017/06/13/2017-06-13-android_asyncTask/</url>
       <content type="html"><![CDATA[<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p>AsyncTask是什么？—异步任务，听起来是用来执行一些比较耗时的操作的。<br>首先要知道Android的两个概念：主线程(又叫UI线程)和后台线程</p>
 <ul>
 <li>主线程：是一个Android程序开始运行时默认启动的线程，主要用来显示界面，跟用户交互</li>
@@ -321,7 +321,7 @@
     
     <entry>
       <title><![CDATA[java：Array(数组)和ArrayList的区别]]></title>
-      <url>https://disinuo.me/2017/05/31/2017-05-31-array_arrayList/</url>
+      <url>http://yoursite.com/2017/05/31/2017-05-31-array_arrayList/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在java中，ArrayList其实是内部封装了一个数组来放数据的。那我就想他们两个究竟有哪些区别呢<br>这篇博客主要以<a href="http://javahungry.blogspot.com/2015/03/difference-between-array-and-arraylist-in-java-example.html" target="_blank" rel="noopener">8 Difference Between Array And ArrayList In Java With Example</a>为基准~，有的地方加了自己的理解<br><a id="more"></a></p>
 <h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><h4 id="是否可改变size"><a href="#是否可改变size" class="headerlink" title="是否可改变size"></a>是否可改变size</h4><ul>
 <li>数组不能改变size</li>
@@ -390,7 +390,7 @@
     
     <entry>
       <title><![CDATA[Android：ArrayAdapter工作原理【含源码分析】]]></title>
-      <url>https://disinuo.me/2017/05/25/2017-05-27-android-adapter/</url>
+      <url>http://yoursite.com/2017/05/25/2017-05-27-android-adapter/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Adapter是个什么呢？~<br>它就相当于是MVC架构里的controller，负责数据和视图直接的联系。<br>而叫做<code>Adapter</code>也是因为应用了设计模式【适配器模式】的思想。它提供一个接口，使用者只管把数据丢给它，它负责将数据展示到指定的视图里<br>接下来就看看它的基本应用和原理~~~</p>
 <h3 id="基本应用"><a href="#基本应用" class="headerlink" title="基本应用"></a>基本应用</h3><p>举个要展示一个数组的例子~<br><a id="more"></a></p>
 <h4 id="Activity创建Adapter并set给view"><a href="#Activity创建Adapter并set给view" class="headerlink" title="Activity创建Adapter并set给view"></a>Activity创建Adapter并set给view</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">String[] data = &#123;</span><br><span class="line">    <span class="string">"Mon 6/23 - Sunny - 31/17"</span>,</span><br><span class="line">    <span class="string">"Tue 6/24 - Foggy - 21/8"</span>,</span><br><span class="line">    <span class="string">"Wed 6/25 - Cloudy - 22/17"</span>,</span><br><span class="line">&#125;;</span><br><span class="line">List&lt;String&gt; weekForecast = <span class="keyword">new</span> ArrayList&lt;String&gt;(Arrays.asList(data));</span><br><span class="line">ArrayAdapter adapter = <span class="keyword">new</span> ArrayAdapter&lt;String&gt;(</span><br><span class="line">                        getActivity(), <span class="comment">// 上下文</span></span><br><span class="line">                        R.layout.list_item_forecast, <span class="comment">// layout的ID</span></span><br><span class="line">                        R.id.list_item_forecast_textview, <span class="comment">// 想把单项数据放在里面的view的ID</span></span><br><span class="line">                        weekForecast);<span class="comment">//数据</span></span><br><span class="line">  <span class="comment">//展示数据的界面</span></span><br><span class="line">ListView listView = (ListView) rootView.findViewById(R.id.listview_forecast);</span><br><span class="line">listView.setAdapter(adapter);</span><br></pre></td></tr></table></figure>
@@ -439,7 +439,7 @@
     
     <entry>
       <title><![CDATA[spring的controller接口参数类型List<MyClass>报错]]></title>
-      <url>https://disinuo.me/2017/05/25/2017-05-25-spring_controller_interface_List/</url>
+      <url>http://yoursite.com/2017/05/25/2017-05-25-spring_controller_interface_List/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在做一个j2ee项目，原本设计成前端发送HTTP请求时提交的数据是几个基本类型和一个数组，这个数组类型是一个自定义的类，长下面这样<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GuestInputVO</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String userRealName;</span><br><span class="line">    <span class="keyword">private</span> String idCard;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> vipId=-<span class="number">1</span>;</span><br><span class="line">    <span class="comment">//省略了每个成员变量的Get、Set方法</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h3 id="报错场景复原"><a href="#报错场景复原" class="headerlink" title="报错场景复原"></a>报错场景复原</h3><a id="more"></a>
 <h4 id="Controller的接口"><a href="#Controller的接口" class="headerlink" title="Controller的接口"></a>Controller的接口</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ResponseBody</span></span><br><span class="line"><span class="meta">@RequestMapping</span>(value = <span class="string">"/liveIn"</span>,</span><br><span class="line">method = RequestMethod.POST,</span><br><span class="line">produces = <span class="string">"text/html;charset=UTF-8"</span>)</span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">liveIn</span><span class="params">(<span class="keyword">int</span> bookBillId,<span class="keyword">int</span> roomId,List&lt;GuestInputVO&gt; guests)</span></span></span><br></pre></td></tr></table></figure>
@@ -470,7 +470,7 @@
     
     <entry>
       <title><![CDATA[DOM Parser]]></title>
-      <url>https://disinuo.me/2017/04/13/2017-04-14-DOM-parser/</url>
+      <url>http://yoursite.com/2017/04/13/2017-04-14-DOM-parser/</url>
       <content type="html"><![CDATA[<h3 id="DOM"><a href="#DOM" class="headerlink" title="DOM"></a>DOM</h3><p>Document Object Model</p>
 <h3 id="DOM-Parser"><a href="#DOM-Parser" class="headerlink" title="DOM Parser"></a>DOM Parser</h3><h4 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h4><p>将 XML 整个作为类似树结构的方式读入内存中以便操作及解析<br><a id="more"></a></p>
 <h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ul>
@@ -534,7 +534,7 @@
     
     <entry>
       <title><![CDATA[记第一次淋雨的马拉松]]></title>
-      <url>https://disinuo.me/2017/03/19/2017-03-19-marathon_wuxi/</url>
+      <url>http://yoursite.com/2017/03/19/2017-03-19-marathon_wuxi/</url>
       <content type="html"><![CDATA[<p>算下来这是第4次参加马拉松了~都是半马。<br>这次成绩02:19:41~【感觉成绩一直没有第一次跑好的也就只有我了吧。。。】<br><a id="more"></a><br>这次是第一次参加无锡马拉松~昨天上午跟跑团的学长姐一起坐了一个多小时的绿皮火车来到无锡，先吃了顿大餐之后去领装备。<br>讲道理我真的没见过这么多人领物的，听说这次马拉松外地报名的人有2万。而且还要刷身份证进去~还会识别人脸和身份证是不是一致的。。~超严格</p>
 <p>参赛包里给了一个 我们叫丑娃娃的。。。小娃娃。。<br><img src="/image/2017-03-19-marathon_wuxi/doll.png" alt="丑娃娃"><br>大概是考虑到会下雨吧~这次组委会搞了防水的参赛包，但是我就想问一下为啥！要做这么大。。。orz不过除了大以外都挺好的~<br>因为要穿跑团的队服就没有穿官方给的小粉T恤啦~这种无袖的t恤我大概还要在瘦个两三圈才敢穿~。。。</p>
 <p>今早5：30起的床【我们住的地方离起点超近的都要起这么早。。。真的不敢想象住得远的小伙伴们要几点起】<br>好啦直接说重点<br>今天一开始是多云嘛~还挺开心的~跑着也不热。然后我开始阶段配速一直控制在6分15左右~出乎意料的稳定哈哈哈<br>这次跑的不累，在10km喝了第一次水~<br>之后天就越来越阴。。。感觉大事不好。<br>我跑到14km的位置时开始下雨，雨越来越大，后来把眼镜拿在了手上。其实雨大到是小事，主要是风也很大，于是就很冷orz。。。<br>而且跑一跑雨和汗就混着要流进眼睛，还好戴了参赛包里给的手套~可以擦一擦~<br>然后。。。大概15、16km左右我的蓝牙耳机没电了。。。除了不能听歌以外，更重要的是听不到自己的配速和跑了多少公里了，就没办法及时调整什么的了嘛。不过那一段好像1km就有一个牌子，后来19-21km一直没看到牌子。。。我还以为一直在跑19。。。<br>然后最后200m的时候才知道要到终点了~讲道理我觉得自己的体力可以早一点冲刺的~哎还是怪自己没把耳机充好电，下次一定要长记性。<br>话说最后100m是江南大学田径场上的100m也是很神奇哈哈哈<br><img src="/image/2017-03-19-marathon_wuxi/route.png" alt="路线图~"><br>按照学长姐的说法我跑了这么多次半马该跑全马了，但是这配速还是有点虚orz起码半马要进2小时10分吧！进了我就去报全马~！<br>对了锡马完赛包里的吃的好评！菠萝包和黑米面包都好好吃~~~还有那个迷之造型的香蕉哈哈哈也是很厉害<br><img src="/image/2017-03-19-marathon_wuxi/banana.png" alt="神奇的香蕉"></p>
@@ -552,7 +552,7 @@
     
     <entry>
       <title><![CDATA[hibernate：Get vs Load -- 源码分析]]></title>
-      <url>https://disinuo.me/2017/03/07/2017-03-08-hibernate_get_load/</url>
+      <url>http://yoursite.com/2017/03/07/2017-03-08-hibernate_get_load/</url>
       <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>本文贴的源码都是删减版。。。~一些异常的判断、处理，都被省略掉了<br>只贴了主要的部分~</li>
 <li>Hibernate版本  5.1.0<a id="more"></a>
@@ -601,17 +601,17 @@
     
     <entry>
       <title><![CDATA[javascript之继承]]></title>
-      <url>https://disinuo.me/2017/01/28/2017-01-28-javascript_extend/</url>
+      <url>http://yoursite.com/2017/01/28/2017-01-28-javascript_extend/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>说明一下，本文提到的‘类’，不是java、C里那种‘类’~<br>javascript里是没有类的概念的，只是为了方便表达~将一个包含构造器、原型的变量叫做‘类’。<br>javascript里的继承，跟java、C等比起来，看起来好像很随意。。。<br>因为javascript里的‘类’的构成，包含两部分嘛——–构造器和原型，<br>所以继承也包括两部分~原型继承和构造器继承，都得手动自己来~<br>所以其实也可以单独继承构造器或者原型。<br><a id="more"></a></p>
 <h3 id="继承原理"><a href="#继承原理" class="headerlink" title="继承原理"></a>继承原理</h3><p>javascript的继承是基于原型链哒~<br>原型链两个相邻的原型，靠近顶端的是另一个的‘父类’或‘超类’。<br>比如有原型链如下</p>
 <blockquote>
 <p>A -&gt; B.prototype -&gt; Object.prototype -&gt;null</p>
 </blockquote>
 <p>B是A的父类~</p>
-<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>假设有一个<code>书</code>的‘类’，下面是它的构造器和原型（构造器和原型不知道是啥的话可以看这里<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/">javascript 原型与构造器之‘原型’</a>，<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/">javascript 原型与构造器之构造器</a>）<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Book=<span class="function"><span class="keyword">function</span> (<span class="params">name</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">&#125;;</span><br><span class="line">Book.prototype=&#123;</span><br><span class="line">    <span class="keyword">constructor</span>:Book,</span><br><span class="line">    getName:function () &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>假设有一个<code>书</code>的‘类’，下面是它的构造器和原型（构造器和原型不知道是啥的话可以看这里<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/" target="_blank" rel="noopener">javascript 原型与构造器之‘原型’</a>，<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/" target="_blank" rel="noopener">javascript 原型与构造器之构造器</a>）<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Book=<span class="function"><span class="keyword">function</span> (<span class="params">name</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">&#125;;</span><br><span class="line">Book.prototype=&#123;</span><br><span class="line">    <span class="keyword">constructor</span>:Book,</span><br><span class="line">    getName:function () &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
 <p>然后呢~有一个<code>小说</code>的’类’要继承<code>书</code>。然后看下面继承的两个步骤~</p>
 <h3 id="继承Part1–构造器继承"><a href="#继承Part1–构造器继承" class="headerlink" title="继承Part1–构造器继承"></a>继承Part1–构造器继承</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Fiction = <span class="function"><span class="keyword">function</span> (<span class="params">name,author</span>) </span>&#123;</span><br><span class="line">    Book.call(<span class="keyword">this</span>,name); <span class="comment">//调用Book的构造器</span></span><br><span class="line">    <span class="keyword">this</span>.author=author;   <span class="comment">//在构造器里给Fiction添加了一个“作者”属性</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>先解释一下<code>call</code>函数。<br>call是javascript里Function类型变量自带的函数，参数个数不定。<br>第一个参数是会作为该函数执行时的<code>this</code>。关于this可参考(javascript之this的绑定)[<a href="https://disinuo.me/2016/12/24/2016-12-24-javascript_this]">https://disinuo.me/2016/12/24/2016-12-24-javascript_this]</a><br>接下来的参数就都是调用call的函数本身的参数啦~<br>所以这里<code>Book.call(this,name)</code>是把Fiction的this传给Book，把name传给Book的构造器。</p>
+<p>先解释一下<code>call</code>函数。<br>call是javascript里Function类型变量自带的函数，参数个数不定。<br>第一个参数是会作为该函数执行时的<code>this</code>。关于this可参考(javascript之this的绑定)[<a href="https://disinuo.me/2016/12/24/2016-12-24-javascript_this]" target="_blank" rel="noopener">https://disinuo.me/2016/12/24/2016-12-24-javascript_this]</a><br>接下来的参数就都是调用call的函数本身的参数啦~<br>所以这里<code>Book.call(this,name)</code>是把Fiction的this传给Book，把name传给Book的构造器。</p>
 <blockquote>
 <p>为什么要这么费劲的把Fiction的this传给Book呢？直接<code>Book(name);</code>不行吗？</p>
 </blockquote>
@@ -646,12 +646,12 @@
     
     <entry>
       <title><![CDATA[javascript 原型与构造器之‘构造器’]]></title>
-      <url>https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/</url>
-      <content type="html"><![CDATA[<h3 id="构造器"><a href="#构造器" class="headerlink" title="构造器"></a>构造器</h3><p>其实构造器就是方法，只是当你用<code>new</code>调用它的时候它就是构造器了（new的作用参见<a href="https://disinuo.me/2017/01/10/2017-01-10-javascript_new/">javascript关键字new</a>）。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Person=<span class="function"><span class="keyword">function</span> (<span class="params">name,age</span>)</span>&#123;<span class="comment">//这就是个Person的构造器</span></span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">    <span class="keyword">this</span>.age=age;</span><br><span class="line">    <span class="keyword">this</span>.hobbies=[<span class="string">'Drawing'</span>,<span class="string">'Music'</span>];</span><br><span class="line">&#125;;</span><br><span class="line">Person.prototype=&#123;<span class="comment">//这是Person的原型</span></span><br><span class="line">    <span class="keyword">constructor</span>:Person,</span><br><span class="line">    sex:'Male',</span><br><span class="line">    friends:['Lihua','Oliver'],</span><br><span class="line">    getName:function () &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
-<p>原型不大清楚的可以参考这篇  <a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/">javascript 原型与构造器之‘原型’</a> ^ ^~<br><a id="more"></a></p>
+      <url>http://yoursite.com/2017/01/26/2017-01-26-javascript_constructor/</url>
+      <content type="html"><![CDATA[<h3 id="构造器"><a href="#构造器" class="headerlink" title="构造器"></a>构造器</h3><p>其实构造器就是方法，只是当你用<code>new</code>调用它的时候它就是构造器了（new的作用参见<a href="https://disinuo.me/2017/01/10/2017-01-10-javascript_new/" target="_blank" rel="noopener">javascript关键字new</a>）。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Person=<span class="function"><span class="keyword">function</span> (<span class="params">name,age</span>)</span>&#123;<span class="comment">//这就是个Person的构造器</span></span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">    <span class="keyword">this</span>.age=age;</span><br><span class="line">    <span class="keyword">this</span>.hobbies=[<span class="string">'Drawing'</span>,<span class="string">'Music'</span>];</span><br><span class="line">&#125;;</span><br><span class="line">Person.prototype=&#123;<span class="comment">//这是Person的原型</span></span><br><span class="line">    <span class="keyword">constructor</span>:Person,</span><br><span class="line">    sex:'Male',</span><br><span class="line">    friends:['Lihua','Oliver'],</span><br><span class="line">    getName:function () &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p>原型不大清楚的可以参考这篇  <a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/" target="_blank" rel="noopener">javascript 原型与构造器之‘原型’</a> ^ ^~<br><a id="more"></a></p>
 <h3 id="创建对象本身的属性"><a href="#创建对象本身的属性" class="headerlink" title="创建对象本身的属性"></a>创建对象本身的属性</h3><p>上面的构造器里形如<code>this.name=name</code>的代码，都是在给 <strong>对象自身</strong> 添加属性，<br>于是通过该构造器创建的 <strong>实例本身</strong> 也就拥有了相应的属性。<br>与原型的属性不同，原型的属性是实例共享的，而构造器创建的属性，是每个实例独自拥有的。</p>
 <h3 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h3><p>下面的代码基于上面Person的构造器和原型<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> person1=<span class="keyword">new</span> Person(<span class="string">'Lily'</span>,<span class="number">18</span>);</span><br><span class="line"><span class="keyword">var</span> person2=<span class="keyword">new</span> Person(<span class="string">'Amy'</span>,<span class="number">24</span>);</span><br><span class="line">person1.sex=<span class="string">'Female'</span>;</span><br><span class="line"><span class="built_in">console</span>.log(person1.sex);<span class="comment">//Female</span></span><br><span class="line"><span class="built_in">console</span>.log(person2.sex);<span class="comment">//Male</span></span><br><span class="line"></span><br><span class="line">person1.friends.push(<span class="string">'Selena'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(person1.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br><span class="line"><span class="built_in">console</span>.log(person2.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br><span class="line"></span><br><span class="line">person1.friends=[<span class="string">'Lihua'</span>];</span><br><span class="line"><span class="built_in">console</span>.log(person1.friends);<span class="comment">//Lihua</span></span><br><span class="line"><span class="built_in">console</span>.log(person2.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br><span class="line"></span><br><span class="line">person1.hobbies.push(<span class="string">'Movie'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(person1.hobbies);<span class="comment">//Drawing,Music,Movie</span></span><br><span class="line"><span class="built_in">console</span>.log(person2.hobbies);<span class="comment">//Drawing,Music</span></span><br></pre></td></tr></table></figure></p>
-<p>比较两个push的不同~<br>(除这4行输出外不理解的话可以看下我的上一篇博客~)<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/">javascript 原型与构造器之‘原型’</a><br>person1.friends的push，对两个实例都产生了影响；<br>person1.hobbies的push仅对person1产生了影响。<br>因为friends是原型的属性，实例共享；而hobbies是实例的属性，每个实例都有自己独立的。</p>
+<p>比较两个push的不同~<br>(除这4行输出外不理解的话可以看下我的上一篇博客~)<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/" target="_blank" rel="noopener">javascript 原型与构造器之‘原型’</a><br>person1.friends的push，对两个实例都产生了影响；<br>person1.hobbies的push仅对person1产生了影响。<br>因为friends是原型的属性，实例共享；而hobbies是实例的属性，每个实例都有自己独立的。</p>
 <h3 id="避免实例间属性干扰"><a href="#避免实例间属性干扰" class="headerlink" title="避免实例间属性干扰"></a>避免实例间属性干扰</h3><p>所以~要解决，像代码中‘改变person1的friends时，无意中也把person2的friends改了’这种情况，<br>可以把该属性从原型中转移到构造器里~就好啦~</p>
 <h3 id="原型-vs-构造器"><a href="#原型-vs-构造器" class="headerlink" title="原型 vs 构造器"></a>原型 vs 构造器</h3><p>下面这些结论都是我看书啊听课啊学到的+自己总结的~不是那么绝对~欢迎讨论~~</p>
 <ol>
@@ -675,7 +675,7 @@
     
     <entry>
       <title><![CDATA[javascript 原型与构造器之‘原型’]]></title>
-      <url>https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/</url>
+      <url>http://yoursite.com/2017/01/26/2017-01-26-javascript_prototype/</url>
       <content type="html"><![CDATA[<h3 id="js独特的原型"><a href="#js独特的原型" class="headerlink" title="js独特的原型"></a>js独特的原型</h3><p>不同于C、Java等语言基于<code>类</code>，javascript是基于<code>原型</code>的。<br>原型本质也是对象。<br>每个对象都有原型（javascript中最基本的原型是Object.prototype）。<br>每个实例（当然，一定是个对象）都有一个原型，而这个原型作为一个对象，也有原型，从而形成了原型链。<br>原型链的顶端是null（Object.prototype的原型是null）。<br><a id="more"></a></p>
 <h3 id="原型示例"><a href="#原型示例" class="headerlink" title="原型示例"></a>原型示例</h3><p>下面创建一个“类”Animal，以及Animal的原型。（这里“类”打了引号，因为它不是类，但又不知道怎么叫它了。。。）<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Animal=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">&#125;</span><br><span class="line">Animal.prototype=&#123;</span><br><span class="line">  name:<span class="string">'Dogge'</span>,</span><br><span class="line">  sleep:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"sleeping~"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>可见我们在Animal的原型上创建了一个属性<code>name</code>，一个方法<code>sleep</code>。</p>
@@ -683,7 +683,7 @@
 <p>此时对象dog的原型链是 <strong>dog -&gt; Animal.prototype -&gt; Object.prototype -&gt; null</strong>。<br>这里说明一下，通常情况下原型链的顶端两个都是 Object.prototype -&gt; null，除非像下面这样这样创建<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a=<span class="built_in">Object</span>.create(<span class="literal">null</span>); <span class="comment">//此时原型链是 a -&gt; null</span></span><br></pre></td></tr></table></figure></p>
 <p><code>Object.create</code>方法是用来创建对象的，参数是该对象基于的原型。比如可以这样<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = &#123;<span class="attr">count</span>: <span class="number">1</span>&#125;;</span><br><span class="line"><span class="comment">// a ---&gt; Object.prototype ---&gt; null</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> b = <span class="built_in">Object</span>.create(a);</span><br><span class="line"><span class="comment">// b ---&gt; a ---&gt; Object.prototype ---&gt; null</span></span><br></pre></td></tr></table></figure></p>
 <h3 id="实例与原型的关系"><a href="#实例与原型的关系" class="headerlink" title="实例与原型的关系"></a>实例与原型的关系</h3><p>原型是唯一，并且实例间共享的。<br>可以理解为，通过实例可以访问到原型的属性（这里的属性包含方法，下同），是因为实例持有原型的属性的<code>引用</code>。<br>所以如果一个实例修改了原型的属性，基于该原型的其它实例的该属性也会被修改。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Person=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">&#125;;</span><br><span class="line">Person.prototype=&#123;</span><br><span class="line">    sex:<span class="string">'Male'</span>,</span><br><span class="line">    friends:[<span class="string">'Lihua'</span>,<span class="string">'Oliver'</span>],</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> person1=<span class="keyword">new</span> Person();</span><br><span class="line"><span class="keyword">var</span> person2=<span class="keyword">new</span> Person();</span><br><span class="line">person1.friends.push(<span class="string">'Selena'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(person1.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br><span class="line"><span class="built_in">console</span>.log(person2.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br></pre></td></tr></table></figure></p>
-<p>这里，本来是想给person1增加朋友Selena，结果person2的朋友也变了。这就很尴尬了。<br>将在下一篇<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/">javascript 原型与构造器之构造器</a>的部分说怎么办~<br>在此之前，你可能也发现了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">person1.sex=&apos;Female&apos;;</span><br><span class="line">console.log(person1.sex);//Female</span><br><span class="line">console.log(person2.sex);//Male</span><br></pre></td></tr></table></figure></p>
+<p>这里，本来是想给person1增加朋友Selena，结果person2的朋友也变了。这就很尴尬了。<br>将在下一篇<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/" target="_blank" rel="noopener">javascript 原型与构造器之构造器</a>的部分说怎么办~<br>在此之前，你可能也发现了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">person1.sex=&apos;Female&apos;;</span><br><span class="line">console.log(person1.sex);//Female</span><br><span class="line">console.log(person2.sex);//Male</span><br></pre></td></tr></table></figure></p>
 <p>改person1的性别，person2的没有变啊，这是怎么回事。<br>这就涉及到了javascript神奇的属性访问与创建的原则。</p>
 <h3 id="属性的访问与创建机制"><a href="#属性的访问与创建机制" class="headerlink" title="属性的访问与创建机制"></a>属性的访问与创建机制</h3><ul>
 <li>创建<br>跟java不一样，在java里，如果给对象一个不存在的属性<code>赋值</code>（注意！是 <strong>赋值</strong>），是会报错的。<br>而在javascript里这一点就显得很智能。。。解释器会帮你自动创建一个属性并赋值~</li>
@@ -709,7 +709,7 @@
     
     <entry>
       <title><![CDATA[javascript迷之闭包]]></title>
-      <url>https://disinuo.me/2017/01/23/2017-01-23-javascript_closure/</url>
+      <url>http://yoursite.com/2017/01/23/2017-01-23-javascript_closure/</url>
       <content type="html"><![CDATA[<h3 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h3><p>2017-01-24 改了下‘封装私有变量’的代码；’闭包的概念’部分的文字表述；添加常见应用–‘模仿块级作用域’</p>
 <h3 id="闭包的概念"><a href="#闭包的概念" class="headerlink" title="闭包的概念"></a>闭包的概念</h3><p>闭包，简单来说就是指那些能够访问另一函数作用域内变量的函数。<br>比如最基础的<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> person=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> name=<span class="string">'Shelly'</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(name);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> func=person();</span><br><span class="line">func(); <span class="comment">//Shelly</span></span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
@@ -743,7 +743,7 @@
     
     <entry>
       <title><![CDATA[javascript厉害的Array]]></title>
-      <url>https://disinuo.me/2017/01/19/2017-01-19-javascript_array/</url>
+      <url>http://yoursite.com/2017/01/19/2017-01-19-javascript_array/</url>
       <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>虽然javascript数据类型少，但是功能还是挺多的~<br>比如Array类型！又可以当栈又可以当队列^o^<br>而且Array还有一个特点是：一个Array里面的每一项都可以是不同的类型~也算是一个有利有弊的特性吧~</p>
 <h3 id="能当栈又能当队列"><a href="#能当栈又能当队列" class="headerlink" title="能当栈又能当队列"></a>能当栈又能当队列</h3><p>为了实现这一点，javascript的Array有4个方法<br>分别是pop,push,shift,unshift。<br><a id="more"></a><br>作用分别是对Array尾部弹出一项、尾部添加N项、头部弹出一项、头部添加N项。（N&gt;=1）<br>返回值分别是弹出项、Array的最新长度、弹出项、Array的最新长度。<br>于是！基于这4个操作~<br>pop和push组合，或shift和unshift，就可以模拟出 <strong>栈</strong> 的操作<br>pop和unshift组合，或shift和push, 就可以模拟出 <strong>队列</strong> 的操作<br>下面看看例子吧~<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> array=[<span class="string">'aaa'</span>,<span class="string">'bbb'</span>,<span class="string">'ccc'</span>,<span class="string">'ddd'</span>];</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'original array: '</span>+array);</span><br><span class="line"><span class="keyword">var</span> x=array.push(<span class="string">'ccc'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(x);     <span class="comment">//5</span></span><br><span class="line"><span class="built_in">console</span>.log(array); <span class="comment">//aaa,bbb,ccc,ddd,ccc</span></span><br><span class="line"><span class="keyword">var</span> y=array.push(<span class="string">'eee'</span>,<span class="string">'fff'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(y);     <span class="comment">//7</span></span><br><span class="line"><span class="built_in">console</span>.log(array); <span class="comment">//aaa,bbb,ccc,ddd,ccc,eee,fff</span></span><br><span class="line"><span class="keyword">var</span> z=array.pop();</span><br><span class="line"><span class="built_in">console</span>.log(z);     <span class="comment">//fff</span></span><br><span class="line"><span class="built_in">console</span>.log(array); <span class="comment">//aaa,bbb,ccc,ddd,ccc,eee</span></span><br><span class="line"><span class="keyword">var</span> m=array.shift();</span><br><span class="line"><span class="built_in">console</span>.log(m);     <span class="comment">//aaa</span></span><br><span class="line"><span class="built_in">console</span>.log(array); <span class="comment">//bbb,ccc,ddd,ccc,eee</span></span><br><span class="line"><span class="keyword">var</span> n=array.unshift(<span class="string">'ggg'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(n);     <span class="comment">//6</span></span><br><span class="line"><span class="built_in">console</span>.log(array); <span class="comment">//ggg,bbb,ccc,ddd,ccc,eee</span></span><br><span class="line"><span class="keyword">var</span> p=array.unshift(<span class="string">'hhh'</span>,<span class="string">'iii'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(p);     <span class="comment">//8</span></span><br><span class="line"><span class="built_in">console</span>.log(array); <span class="comment">//hhh,iii,ggg,bbb,ccc,ddd,ccc,eee</span></span><br><span class="line"><span class="comment">// 这最后一种情况要注意一下~</span></span><br><span class="line"><span class="comment">// 我原本以为会是 iii,hhh,...的，</span></span><br><span class="line"><span class="comment">// 因为想的是按照插入的顺序，先在头部插入hhh，再在头部插入iii嘛</span></span><br><span class="line"><span class="comment">// 结果hhh在iii的前面了。</span></span><br><span class="line"><span class="comment">// 再经思考，</span></span><br><span class="line"><span class="comment">// 觉得这大概跟'javascript的函数所有参数其实是一个数组'有关，</span></span><br><span class="line"><span class="comment">//（就是在实现上，函数的参数会合并起来成为一个数组，就是`arguments`,在函数内部可以通过arguments[i]依次访问传入的参数~~ 虽然严格来讲它不是数组，是类数组，但这里就不多说啦）</span></span><br><span class="line"><span class="comment">// 于是这里hhh,iii被看成一个数组，直接插入到原数组头部</span></span><br></pre></td></tr></table></figure></p>
 <p><a href="https://github.com/disinuo/Demo_for_learningJS" target="_blank" rel="noopener">想看源码可以戳这里^ ^</a>（还包含javascript系列的其他部分的源码哦~~）~</p>
@@ -762,7 +762,7 @@
     
     <entry>
       <title><![CDATA[警惕javascript的内存泄漏]]></title>
-      <url>https://disinuo.me/2017/01/18/2017-01-18-javascript_memory_rename/</url>
+      <url>http://yoursite.com/2017/01/18/2017-01-18-javascript_memory_rename/</url>
       <content type="html"><![CDATA[<p>javascript的BOM和DOM对象是基于C++的COM的，它的垃圾收集机制是<font color="#e06c75">引用计数策略</font>，<br>循环引用会造成内存泄漏。</p>
 <h3 id="引用计数策略思想"><a href="#引用计数策略思想" class="headerlink" title="引用计数策略思想"></a>引用计数策略思想</h3><p>跟踪变量被引用的次数，次数为0的会被回收</p>
 <h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><a id="more"></a>
@@ -787,7 +787,7 @@
     
     <entry>
       <title><![CDATA[javascript关键字new]]></title>
-      <url>https://disinuo.me/2017/01/10/2017-01-10-javascript_new/</url>
+      <url>http://yoursite.com/2017/01/10/2017-01-10-javascript_new/</url>
       <content type="html"><![CDATA[<p>关键字new,相当于让解释器帮你加入两行代码<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>=<span class="built_in">Object</span>.create(ClassName.prototype);</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">this</span>;</span><br></pre></td></tr></table></figure></p>
 <p>举个例子<br><a id="more"></a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Animal=<span class="function"><span class="keyword">function</span>(<span class="params">name</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.name=name;</span><br><span class="line">&#125;</span><br><span class="line">Animal.prototype=&#123;</span><br><span class="line">  sleep:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"sleeping~"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> dog=<span class="keyword">new</span> Animal(<span class="string">'dogge'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(dog.name);      <span class="comment">//dogge</span></span><br><span class="line"><span class="built_in">console</span>.log(dog.sleep());   <span class="comment">//sleeping</span></span><br><span class="line"><span class="comment">// 用关键字new，解释器会将Animal自动添加上述的两行代码</span></span><br><span class="line"><span class="comment">// 变成下面的样子</span></span><br><span class="line"><span class="keyword">var</span> Animal=<span class="function"><span class="keyword">function</span> (<span class="params">name</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>=<span class="built_in">Object</span>.create(Animal.prototype);</span><br><span class="line">  <span class="keyword">this</span>.name=name;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 如果不用`new`呢</span></span><br><span class="line"><span class="keyword">var</span> cat=Animal(<span class="string">'Kitty'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(cat);       <span class="comment">//undefined。因为Animal方法没有返回值</span></span><br></pre></td></tr></table></figure></p>
 ]]></content>
@@ -803,7 +803,7 @@
     
     <entry>
       <title><![CDATA[或许我们都是盲人---读《失明症漫记》的感想]]></title>
-      <url>https://disinuo.me/2016/12/25/2016-12-25-blind_disease/</url>
+      <url>http://yoursite.com/2016/12/25/2016-12-25-blind_disease/</url>
       <content type="html"><![CDATA[<font color="#DCACAC"><strong>我们都是盲人，看得见的盲人，能看却又看不见的盲人。</strong> </font>
 
 <a id="more"></a>
@@ -845,7 +845,7 @@
     
     <entry>
       <title><![CDATA[javascript之this的绑定]]></title>
-      <url>https://disinuo.me/2016/12/24/2016-12-24-javascript_this/</url>
+      <url>http://yoursite.com/2016/12/24/2016-12-24-javascript_this/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天在<a href="https://cn.udacity.com/" target="_blank" rel="noopener">udacity</a>上听课~觉得老师对javascript里面的this讲得很清楚，总结一下~<br><a id="more"></a></p>
 <h3 id="基本原则"><a href="#基本原则" class="headerlink" title="基本原则"></a>基本原则</h3><ol>
 <li>看<code>点</code>的左边是什么，this就绑定什么。（回调函数、new有例外,见原则3 &amp; 5）</li>
@@ -876,7 +876,7 @@
     
     <entry>
       <title><![CDATA[给github pages设置ssl(包含改了域名的情况)]]></title>
-      <url>https://disinuo.me/2016/12/21/2016-12-21-github_pages_setup_ssl/</url>
+      <url>http://yoursite.com/2016/12/21/2016-12-21-github_pages_setup_ssl/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近才知道http和https的区别，然后看到好多文章说http相比较于https怎么怎么没有前景。本来也是觉得我一个博客的网站就http吧也无所谓。但是有的浏览器会警告，看着就很心塞啊，于是找了找教程尝试了一下~<br>如果是用github pages搭建的博客，有两种可能：有没有设置自己的域名~<br><a id="more"></a></p>
 <h3 id="情况1-没有重新设置域名"><a href="#情况1-没有重新设置域名" class="headerlink" title="情况1.没有重新设置域名"></a>情况1.没有重新设置域名</h3><p>就是你的url是<code>yourname.github.io</code>这种的，<br>这个就比较简单啦~github直接就可以配置(不过这个我没试~)<br>在github上进入你名为yourname.github.io的仓库-&gt;settings<br><img src="/image/2016-12-21-github_pages_setup_ssl/github.png" alt><br>然后找到图片中的<code>Enforce HTTPS</code>，勾选上就ok了（因为我设置了自己的域名所以它不让我选）</p>
 <h3 id="情况2-设置了自己的域名"><a href="#情况2-设置了自己的域名" class="headerlink" title="情况2.设置了自己的域名"></a>情况2.设置了自己的域名</h3><p>比如我设置成了disinuo.me</p>
@@ -911,7 +911,7 @@
     
     <entry>
       <title><![CDATA[preparedStatement 报错 Parameter index out of range (1 > number of parameters, which is 0)]]></title>
-      <url>https://disinuo.me/2016/12/18/2016-12-18-preparedStatement_Parameter_index_out_of_range/</url>
+      <url>http://yoursite.com/2016/12/18/2016-12-18-preparedStatement_Parameter_index_out_of_range/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>还是在写j2ee作业。。。（写这作业真的是遇到了好多坑啊。。。orz），servlet跟数据库交互，进行sql查询嘛。<br>本来都好好的也测试过的，然后sql语句换了一个复杂一点的就开始报如题的错。。。我想这是没读到我的问号喽？<br>可是问号明明就在那里orz<br><a id="more"></a></p>
 <h3 id="部分代码"><a href="#部分代码" class="headerlink" title="部分代码"></a>部分代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">String sql=<span class="string">"SELECT exam.id as examID,"</span>+</span><br><span class="line"><span class="string">"exam.name as examName,"</span>+</span><br><span class="line"><span class="string">"exam.date as examDate,"</span>+</span><br><span class="line"><span class="string">"selectC.cid as courseID,"</span>+</span><br><span class="line"><span class="string">"course.name as courseName "</span>+</span><br><span class="line"><span class="string">"FROM selectC,exam,course "</span>+</span><br><span class="line"><span class="string">"WHERE selectC.cid = exam.cid "</span>+</span><br><span class="line"><span class="string">"AND course.id=selectC.cid "</span>+</span><br><span class="line"><span class="string">"AND selectC.sid = ?"</span>;</span><br><span class="line">pstmt=cnn.prepareStatement(sql);</span><br><span class="line">pstmt.setString(<span class="number">1</span>, param);</span><br><span class="line">ResultSet rs=pstmt.executeQuery();</span><br></pre></td></tr></table></figure>
 <p>看起来没毛病吧!我后来都想是不是问号打成中文字符的问号了，改了一下还是不行<br>然后。。。求助google，也没人遇到类似问题，</p>
@@ -940,7 +940,7 @@
     
     <entry>
       <title><![CDATA[mac mysql5.7 安装完无法登录使用]]></title>
-      <url>https://disinuo.me/2016/12/15/2016-12-15-mysql5.7_login_fail/</url>
+      <url>http://yoursite.com/2016/12/15/2016-12-15-mysql5.7_login_fail/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>mysql 5.7 安装完有默认初始密码了，而且不是root…</p>
 <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>准备写j2ee作业，老师让安装mysql5.7,我下载的是dmg文件。<br>可是安装完之后，我打开终端输入<code>mysql</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ERROR</span> 1045 (28000): Access denied <span class="keyword">for</span> user <span class="string">'root'</span>@<span class="string">'localhost'</span> (using password: NO)</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
@@ -962,8 +962,8 @@
     
     <entry>
       <title><![CDATA[git分支管理(二)---合并]]></title>
-      <url>https://disinuo.me/2016/12/14/2016-12-14-git_branch_merge/</url>
-      <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本来没想到分支能写这么长的。。于是就拆成两篇了~想看另一篇的可以<a href="http://disinuo.me/2016/12/14/2016-12-14-git_branch/">戳这里 git分支管理(一)—创建、提交、切换</a>^ ^<br><a id="more"></a></p>
+      <url>http://yoursite.com/2016/12/14/2016-12-14-git_branch_merge/</url>
+      <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本来没想到分支能写这么长的。。于是就拆成两篇了~想看另一篇的可以<a href="http://disinuo.me/2016/12/14/2016-12-14-git_branch/" target="_blank" rel="noopener">戳这里 git分支管理(一)—创建、提交、切换</a>^ ^<br><a id="more"></a></p>
 <h3 id="指针机制"><a href="#指针机制" class="headerlink" title="指针机制"></a>指针机制</h3><p>git 的每个commit都是一个节点，每条分支都有一个head指针指向该分支最新的节点。<br>比如下图有紫色分支和绿色分支，每个圆圈是一个commit节点，红色外框的圆圈是该分支的head指针指向的节点。</p>
 <ul>
 <li><strong> 紫色是master分支，绿色是dev分支 </strong><br><img src="/image/2016-12-14-git_branch_merge/head.png" alt></li>
@@ -1004,7 +1004,7 @@
     
     <entry>
       <title><![CDATA[git分支管理(一)---创建、提交、切换]]></title>
-      <url>https://disinuo.me/2016/12/14/2016-12-14-git_branch/</url>
+      <url>http://yoursite.com/2016/12/14/2016-12-14-git_branch/</url>
       <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>因为怕代码被我玩坏。。。一直没用过branch。。。今天查了一波~把觉得比较有用的知识整理下~<br><a id="more"></a></p>
 <h3 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git branch dev    <span class="comment">#创建一个名叫dev的分支，dev不用加引号</span></span><br><span class="line">git checkout dev  <span class="comment">#切换到dev分支</span></span><br><span class="line"><span class="comment">#上述两步可以合并为一步</span></span><br><span class="line">git checkout -b dev <span class="comment">#创建并切换到dev分支</span></span><br></pre></td></tr></table></figure>
 <h3 id="查看分支"><a href="#查看分支" class="headerlink" title="查看分支"></a>查看分支</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git branch  <span class="comment">#可以查看所有分支</span></span><br><span class="line"><span class="comment">#会看到如下输出，*代表当前处于那个分支下</span></span><br><span class="line">* dev</span><br><span class="line">master</span><br></pre></td></tr></table></figure>
@@ -1036,7 +1036,7 @@
     
     <entry>
       <title><![CDATA[mac Dock图标错误、消失]]></title>
-      <url>https://disinuo.me/2016/12/14/2016-12-14-mac_Dock_icon_wrong/</url>
+      <url>http://yoursite.com/2016/12/14/2016-12-14-mac_Dock_icon_wrong/</url>
       <content type="html"><![CDATA[<p>突然发现自己Dock里面出现了两个ppt，鼠标分别移过去发现是firefox的图标变成ppt的图标了。。。<br>这么醉的事情我还是第一次遇到。。。然后赶紧去应用程序那边看，firefox的图标还是正常的。。。于是我就把它从Dock中删除再重新加入，无济于事<br>后来在Mac讨论区看到网友说是使用CleanMyMac的锅。。。<br>然后找到了解决办法！</p>
 <hr>
 <p>打开终端执行这两条命令就好<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rm ~/Library/Application\ Support/Dock/*.db;</span><br><span class="line">killall Dock</span><br></pre></td></tr></table></figure></p>
@@ -1056,7 +1056,7 @@
     
     <entry>
       <title><![CDATA[qq号取消对第三方网站的授权]]></title>
-      <url>https://disinuo.me/2016/12/13/2016-12-13-qq_cancel_authority/</url>
+      <url>http://yoursite.com/2016/12/13/2016-12-13-qq_cancel_authority/</url>
       <content type="html"><![CDATA[<h3 id="这是一个取消qq账号对其他网站，app的授权的链接！-https-connect-qq-com-manage-html-appauth-user"><a href="#这是一个取消qq账号对其他网站，app的授权的链接！-https-connect-qq-com-manage-html-appauth-user" class="headerlink" title="这是一个取消qq账号对其他网站，app的授权的链接！ https://connect.qq.com/manage.html#/appauth/user"></a>这是一个取消qq账号对其他网站，app的授权的链接！ <a href="https://connect.qq.com/manage.html#/appauth/user" target="_blank" rel="noopener">https://connect.qq.com/manage.html#/appauth/user</a></h3><p>但是直接在qq或者微信里是打不开的会报错<br><a id="more"></a><br><img src="/image/2016-12-13-qq_cancel_authority/fail.png" alt><br>所以要换个浏览器～亲测 <strong>chrome，safari</strong> 可以，火狐不可以 ，其他的都没试了不清楚。<br>然后要重新登录一下 登陆成功界面就如下图<br><img src="/image/2016-12-13-qq_cancel_authority/list.png" alt><br>【我授过的网站有7页orz不要问我为什么。。好多网站自己都没听过】<br>然后下图取消授权就可以了<br><img src="/image/2016-12-13-qq_cancel_authority/dialog.png" alt><br>取消完界面是不会自动刷新的。。所以你可以搞完一页再一起刷新<br>成功后会有下图的提示～<br><img src="/image/2016-12-13-qq_cancel_authority/success.png" alt><br>感觉这是个还在开发中的平台一样。。希望qq维护人员能走点心。。。</p>
 ]]></content>
       
@@ -1071,7 +1071,7 @@
     
     <entry>
       <title><![CDATA[git 修改撤销]]></title>
-      <url>https://disinuo.me/2016/12/12/2016-12-12-git_note/</url>
+      <url>http://yoursite.com/2016/12/12/2016-12-12-git_note/</url>
       <content type="html"><![CDATA[<p>用github这么久一些基本的东西还是搞不清，今天终于google了一波研究了一下</p>
 <h3 id="首先要搞懂4个概念：工作区、暂存区、本地版本库、远程版本库"><a href="#首先要搞懂4个概念：工作区、暂存区、本地版本库、远程版本库" class="headerlink" title="首先要搞懂4个概念：工作区、暂存区、本地版本库、远程版本库"></a>首先要搞懂4个概念：工作区、暂存区、本地版本库、远程版本库</h3><p>为了表意清晰一点，就只画正向的关系啦~关系图如下<br><img src="/image/2016-12-12-git_note/git_4_things.png" alt><br>【其实说白点，工作区，就是本地ide或者记事本里正码着的代码】<br><a id="more"></a></p>
 <h3 id="想丢弃工作区里修改的文件（在执行add之前"><a href="#想丢弃工作区里修改的文件（在执行add之前" class="headerlink" title="想丢弃工作区里修改的文件（在执行add之前)"></a>想丢弃工作区里修改的文件（在执行add之前)</h3><p>直接<code>git checkout -- &lt;file&gt;</code><br>执行完这步操作，工作区的指定文件就会被版本库里的最新版本覆盖~<br>可以执行<code>git checkout .</code>丢弃工作区的所有文件（注意checkout和 . 之间有个空格）<br>不过这个操作威力很大哦~要谨慎</p>
@@ -1096,7 +1096,7 @@
     
     <entry>
       <title><![CDATA[JavaScript 变量声明]]></title>
-      <url>https://disinuo.me/2016/12/11/2016-12-11-javascript_declaration/</url>
+      <url>http://yoursite.com/2016/12/11/2016-12-11-javascript_declaration/</url>
       <content type="html"><![CDATA[<h3 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h3><table>
 <thead>
 <tr>
@@ -1138,7 +1138,7 @@
     
     <entry>
       <title><![CDATA[mac基本指令无法识别。。。]]></title>
-      <url>https://disinuo.me/2016/11/26/2016-11-26-instructionDisappear/</url>
+      <url>http://yoursite.com/2016/11/26/2016-11-26-instructionDisappear/</url>
       <content type="html"><![CDATA[<hr>
 <h3 id="故事是这样的"><a href="#故事是这样的" class="headerlink" title="故事是这样的"></a>故事是这样的</h3><p>本来在配环境的，结果不仅环境没配好，吃个饭之后再打开终端发现基本指令都不！能！用！了。。。<br>比如sudo、ls、vi。。。<br>按下回车的结果都是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-bash:sudo:<span class="built_in">command</span> not found</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
@@ -1162,7 +1162,7 @@
     
     <entry>
       <title><![CDATA[强行删除]]></title>
-      <url>https://disinuo.me/2016/09/28/2016-09-28-forceDelete/</url>
+      <url>http://yoursite.com/2016/09/28/2016-09-28-forceDelete/</url>
       <content type="html"><![CDATA[<p><strong>可解决文件名对应路径过长无法删除的情况</strong></p>
 <hr>
 <h4 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h4><p>这不是昨天电脑重装了系统嘛，顺便格式化了所有盘（觉得太乱想重新搞一遍），然后跟hexo git有关的东西也要重新弄了。具体细节就不说了，反正是想把一个路径搞错的克隆的仓库删掉，但里面<code>node_modules</code>文件夹里，有路径很长的文件，删除的时候会跳出这样的警告<br><a id="more"></a><br><img src="/image/2016-09-28-forceDelete/alert_delete.png" alt><br> 在网上也找了好久，有一个说可以写一个bat文件执行删除指令的看起来还挺厉害的。。然而。。。敌人太强大（这里提示文件已删除但其实没有删掉）<br><img src="/image/2016-09-28-forceDelete/fail.png" alt></p>
@@ -1191,7 +1191,7 @@
     
     <entry>
       <title><![CDATA[markdown文件写的博客怎么加图片]]></title>
-      <url>https://disinuo.me/2016/09/26/2016-09-25-addImg/</url>
+      <url>http://yoursite.com/2016/09/26/2016-09-25-addImg/</url>
       <content type="html"><![CDATA[<p>终于会加图片了~~~！<br><a id="more"></a><br>再次请教了<a href="http://www.cylong.com/" target="_blank" rel="noopener">陈云龙学长</a></p>
 <h2 id="初级版"><a href="#初级版" class="headerlink" title="初级版"></a>初级版</h2><h3 id="图片放哪里"><a href="#图片放哪里" class="headerlink" title="图片放哪里"></a>图片放哪里</h3><p>在与md文件的同一个目录下，新建与md文件同名的文件夹，<br><img src="/image/2016-09-25-addImg/new_folder.png" alt><br>然后把图片放进去</p>
 <h3 id="代码怎么写"><a href="#代码怎么写" class="headerlink" title="代码怎么写"></a>代码怎么写</h3><p>md文件里只需要在想加图片的地方这样写<br>（比如我的图片名字是dog.jpg）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](dog.jpg) <span class="comment">#[]里面是alt text 写不写都行</span></span><br></pre></td></tr></table></figure></p>
@@ -1218,7 +1218,7 @@
     
     <entry>
       <title><![CDATA[第一次考TOEFL~]]></title>
-      <url>https://disinuo.me/2016/09/25/2016-09-25-TOEFL/</url>
+      <url>http://yoursite.com/2016/09/25/2016-09-25-TOEFL/</url>
       <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>今天上午，去考托福啦~<br>总体来说还是比预想的好一点的，因为实际上真正准备的时间是。。从开学到昨天。。就是。。不到一个月。。所以很虚导致预想很低<br>总结下自己的感想好了^ ^<br><a id="more"></a><br>首先。整场考下来，真的没想象那么累，中间休息也不饿，也不太有之前以为的【身体被掏空】的感觉。。。不过面对电脑太久倒确实有点头晕晕的</p>
 <p>加试的是听力，而且按大家出去休息的时间来看应该大部分同学都是加试的听力。</p>
 <h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>阅读淡定的做 时间还是够的~【嗯必须要羞耻的承认 我一开始刷题的时候一个小时只能做两篇orz。。。后来在网上找了点做题技巧之类的，再加上刷了好多题逐渐找到了感觉~有一次做完3篇剩了8分钟！(此处应该有掌声！)虽然那是个偶然哈哈~不过基本都可以在规定时间内做完了】</p>
@@ -1259,7 +1259,7 @@
     
     <entry>
       <title><![CDATA[噔噔噔有自己的博客啦！^o^]]></title>
-      <url>https://disinuo.me/2016/09/16/2016-09-16-myfirst/</url>
+      <url>http://yoursite.com/2016/09/16/2016-09-16-myfirst/</url>
       <content type="html"><![CDATA[<p>真可怕弄到这么晚。。。<br>照着<a href="http://www.cylong.com/blog/2016/04/19/hexo-git/" target="_blank" rel="noopener">陈云龙学长的博客教程</a>~用hexo+github总算是搭建出了博客的整体框架<br>整体还算顺利~<br><a id="more"></a><br>不过其中有一个问题耗费了好长时间。知道真相的我也是。。。orz：<br>在git bash里面输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d <span class="comment">#部署</span></span><br></pre></td></tr></table></figure></p>
 <p>一直没反应。。也不报错。。。<br>后来还是靠度娘，发现原来是博客本地文件夹下的 _config.yml文件里面，修改deploy属性的时候，要注意每个冒号后面都要有一个空格</p>
 ]]></content>

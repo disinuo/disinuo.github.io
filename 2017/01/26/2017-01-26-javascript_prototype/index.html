@@ -83,7 +83,7 @@
 <meta name="keywords" content="javascript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="javascript 原型与构造器之‘原型’">
-<meta property="og:url" content="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/01/26/2017-01-26-javascript_prototype/index.html">
 <meta property="og:site_name" content="Disinuo的博客">
 <meta property="og:description" content="js独特的原型不同于C、Java等语言基于类，javascript是基于原型的。原型本质也是对象。每个对象都有原型（javascript中最基本的原型是Object.prototype）。每个实例（当然，一定是个对象）都有一个原型，而这个原型作为一个对象，也有原型，从而形成了原型链。原型链的顶端是null（Object.prototype的原型是null）。">
 <meta property="og:locale" content="zh-Hans">
@@ -120,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/">
+  <link rel="canonical" href="http://yoursite.com/2017/01/26/2017-01-26-javascript_prototype/">
 
 
 
@@ -305,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/26/2017-01-26-javascript_prototype/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Disinuo">
@@ -417,7 +417,7 @@
 <p>此时对象dog的原型链是 <strong>dog -&gt; Animal.prototype -&gt; Object.prototype -&gt; null</strong>。<br>这里说明一下，通常情况下原型链的顶端两个都是 Object.prototype -&gt; null，除非像下面这样这样创建<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a=<span class="built_in">Object</span>.create(<span class="literal">null</span>); <span class="comment">//此时原型链是 a -&gt; null</span></span><br></pre></td></tr></table></figure></p>
 <p><code>Object.create</code>方法是用来创建对象的，参数是该对象基于的原型。比如可以这样<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = &#123;<span class="attr">count</span>: <span class="number">1</span>&#125;;</span><br><span class="line"><span class="comment">// a ---&gt; Object.prototype ---&gt; null</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> b = <span class="built_in">Object</span>.create(a);</span><br><span class="line"><span class="comment">// b ---&gt; a ---&gt; Object.prototype ---&gt; null</span></span><br></pre></td></tr></table></figure></p>
 <h3 id="实例与原型的关系"><a href="#实例与原型的关系" class="headerlink" title="实例与原型的关系"></a>实例与原型的关系</h3><p>原型是唯一，并且实例间共享的。<br>可以理解为，通过实例可以访问到原型的属性（这里的属性包含方法，下同），是因为实例持有原型的属性的<code>引用</code>。<br>所以如果一个实例修改了原型的属性，基于该原型的其它实例的该属性也会被修改。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Person=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">&#125;;</span><br><span class="line">Person.prototype=&#123;</span><br><span class="line">    sex:<span class="string">'Male'</span>,</span><br><span class="line">    friends:[<span class="string">'Lihua'</span>,<span class="string">'Oliver'</span>],</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> person1=<span class="keyword">new</span> Person();</span><br><span class="line"><span class="keyword">var</span> person2=<span class="keyword">new</span> Person();</span><br><span class="line">person1.friends.push(<span class="string">'Selena'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(person1.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br><span class="line"><span class="built_in">console</span>.log(person2.friends);<span class="comment">//Lihua,Oliver,Selena</span></span><br></pre></td></tr></table></figure></p>
-<p>这里，本来是想给person1增加朋友Selena，结果person2的朋友也变了。这就很尴尬了。<br>将在下一篇<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/">javascript 原型与构造器之构造器</a>的部分说怎么办~<br>在此之前，你可能也发现了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">person1.sex=&apos;Female&apos;;</span><br><span class="line">console.log(person1.sex);//Female</span><br><span class="line">console.log(person2.sex);//Male</span><br></pre></td></tr></table></figure></p>
+<p>这里，本来是想给person1增加朋友Selena，结果person2的朋友也变了。这就很尴尬了。<br>将在下一篇<a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_constructor/" target="_blank" rel="noopener">javascript 原型与构造器之构造器</a>的部分说怎么办~<br>在此之前，你可能也发现了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">person1.sex=&apos;Female&apos;;</span><br><span class="line">console.log(person1.sex);//Female</span><br><span class="line">console.log(person2.sex);//Male</span><br></pre></td></tr></table></figure></p>
 <p>改person1的性别，person2的没有变啊，这是怎么回事。<br>这就涉及到了javascript神奇的属性访问与创建的原则。</p>
 <h3 id="属性的访问与创建机制"><a href="#属性的访问与创建机制" class="headerlink" title="属性的访问与创建机制"></a>属性的访问与创建机制</h3><ul>
 <li>创建<br>跟java不一样，在java里，如果给对象一个不存在的属性<code>赋值</code>（注意！是 <strong>赋值</strong>），是会报错的。<br>而在javascript里这一点就显得很智能。。。解释器会帮你自动创建一个属性并赋值~</li>
@@ -479,7 +479,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/" title="javascript 原型与构造器之‘原型’">https://disinuo.me/2017/01/26/2017-01-26-javascript_prototype/</a>
+    <a href="http://yoursite.com/2017/01/26/2017-01-26-javascript_prototype/" title="javascript 原型与构造器之‘原型’">http://yoursite.com/2017/01/26/2017-01-26-javascript_prototype/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
